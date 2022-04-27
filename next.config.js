@@ -4,7 +4,7 @@ module.exports = {
     return [
       {
         // matching all API routes
-        source: "/api/cep?cep=37720000",
+        source: "/api/:path*",
         headers: [
           { key: "Access-Control-Allow-Credentials", value: "true" },
           { key: "Access-Control-Allow-Origin", value: "*" },
