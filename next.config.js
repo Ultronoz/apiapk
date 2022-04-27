@@ -5,7 +5,7 @@ module.exports = {
       {
         source: "/app/cep",
         headers: [
-          { key: "Access-Control-Allow-Origin", value: "https://apiapk.vercel.app/" },
+          { key: "Access-Control-Allow-Origin", value: "file:///C:/Users/diego/Desktop/teste.html" },
         ],
       },
     ]
