@@ -3,7 +3,7 @@ module.exports = {
   async headers() {
     return [
       {
-        source: "/app/:path*",
+        source: "/app/cep",
         headers: [
           { key: "Access-Control-Allow-Origin", value: "https://apiapk.vercel.app/" },
         ],
